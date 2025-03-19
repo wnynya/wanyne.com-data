@@ -1,0 +1,8 @@
+.DS_Store
+.vscode/
+node_modules/
+.env
+package-lock.json
+app/config
+app/public/resources/fonts
+api/config
