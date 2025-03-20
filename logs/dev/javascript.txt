@@ -1,0 +1,117 @@
+# nodejs-send-tcp-udp-icmp-ping 2022-10-28 23:41:14
+# Node.js TCP/UDP/ICMP 핑 보내기 (Pingus 모듈 사용)
+# [개발]
+
+Node.js 에서 Pingus 모듈을 사용해 각종 프로토콜 (TCP / UDP / ICMP) 로 핑을 보내는 방법입니다.
+
+다른 방법은 아래의 글을 참조하세요.<br />
+<a>Node.js 에서 TCP 핑 보내기 (기본 모듈 사용)</a>
+
+
+
+먼저 Pingus 모듈을 설치합니다.
+```
+npm i pingus
+```
+
+설치 중 오류가 발생하면 다음의 커멘드로 필요 패키지를 설치해줍니다.
+
+데비안, 우분투의 경우:
+```
+apt-get install -y build-essential
+```
+
+
+
+보통의 콘솔 창에서 ping <호스트> 로 사용할 수 있는 ICMP ECHO 핑을 보내봅니다.
+
+예제 파일을 만들고 아래의 코드를 적어넣습니다.
+```js
+import pingus from 'pingus';
+
+pingus.icmp({ host: 'example.com' }).then((result) => {
+  console.log(result); //결과 출력
+}).catch((err) => {
+  console.warn(err);
+});
+```
+
+파일을 실행하면 다음과 같은 결과가 출력됩니다.
+```js
+//콘솔 출력 결과
+{
+  error: undefined,
+  type: 'ping/icmp',
+  status: 'reply',
+  host: 'example.com',
+  ip: '93.184.216.34',
+  ips: [ '93.184.216.34', '2606:2800:220:1:248:1893:25c8:1946' ],
+  time: 122,
+  ttl: 128,
+  bytes: 8,
+  reply: {
+    source: '93.184.216.34',
+    type: 0,
+    code: 0,
+    typestr: 'ECHO_REPLY',
+    codestr: 'NO_CODE'
+  }
+}
+```
+93.184.216.34 에서 122 밀리초로 응답이 잘 온 것을 확인할 수 있습니다.
+
+TCP 핑도 보내봅니다. 방금 전과 같은 코드에서 프로토콜만 바꿔주면 됩니다.
+```js
+import pingus from 'pingus';
+
+pingus.tcp({ host: 'localhost', port: 80 }).then((result) => {
+  console.log(result); //결과 출력
+}).catch((err) => {
+  console.warn(err);
+});
+```
+
+파일을 실행하면 다음과 같은 결과가 출력됩니다.
+```js
+//콘솔 결과 출력
+{
+  error: undefined,
+  type: 'ping/tcp',
+  status: 'open',
+  host: 'example.com',
+  ip: '93.184.216.34',
+  ips: [ '93.184.216.34', '2606:2800:220:1:248:1893:25c8:1946' ],
+  time: 125,
+  port: 80,
+  name: 'http',
+  banner: ''
+}
+```
+방금과 같은 아이피에서 80번 포트 응답이 온 걸 확인할 수 있습니다. 브라우저를 켜서 http://example.com 을 접속 해 보면 웹사이트가 동작 중인 걸 확인할 수 있습니다.
+
+localhost 에 22번 포트로 TCP 핑을 보내봅니다.
+```js
+//콘솔 결과 출력
+{
+  error: undefined,
+  type: 'ping/tcp',
+  status: 'open',
+  host: 'localhost',
+  ip: '127.0.0.1',
+  ips: [ '127.0.0.1' ],
+  time: 2,
+  port: 22,
+  name: 'ssh',
+  banner: 'SSH-2.0-OpenSSH_8.9p1 Ubuntu-3'
+}
+```
+로컬 22번 포트에서 SSH 서버가 확인됩니다.
+
+똑같은 방법으로 UDP 포트 핑도 보낼 수 있습니다.
+
+
+
+
+
+참조한 글
+Github - wnynya/Pingus
