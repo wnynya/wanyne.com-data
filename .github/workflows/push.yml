@@ -11,6 +11,7 @@ jobs:
     env:
       REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
     steps:
-      - run: cd /home/wnynya/wanyne.com-data
-      - run: git remote set-url origin https://$env:$REPO_TOKEN@github.com/wnynya/wanyne.com-data.git
-      - run: git pull
+      - working-directory: /home/wnynya/wanyne.com-data
+        run: git remote set-url origin https://$env:$REPO_TOKEN@github.com/wnynya/wanyne.com-data.git
+      - working-directory: /home/wnynya/wanyne.com-data
+        run: git pull
