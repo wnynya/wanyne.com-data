@@ -1,0 +1,16 @@
+name: Pull
+on:
+  push:
+    branches: [main]
+
+jobs:
+  pull:
+    name: 'Pull'
+    runs-on:
+      labels: [self-hosted, sangsu]
+    env:
+      REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+    steps:
+      - run: cd /home/wnynya/wanyne.com-data
+      - run: git remote set-url origin https://"$env:$REPO_TOKEN"@github.com/wnynya/wanyne.com-data
+      - run: git pull
