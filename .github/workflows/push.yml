@@ -5,7 +5,7 @@ on:
 
 jobs:
   pull:
-    name: 'Pull'
+    name: 'Pull data'
     runs-on:
       labels: [self-hosted, sangsu]
     env:
@@ -15,3 +15,12 @@ jobs:
         run: git remote set-url origin https://$env:$REPO_TOKEN@github.com/wnynya/wanyne.com-data.git
       - working-directory: /home/wnynya/wanyne.com-data
         run: git pull
+
+  restart:
+    name: 'Restart wanyne.com'
+    needs: [pull]
+    runs-on:
+      labels: [self-hosted, sangsu]
+    steps:
+      - run: chmod 777 ./start.sh
+      - run: RUNNER_TRACKING_ID="" && ./start.sh
