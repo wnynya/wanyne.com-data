@@ -22,5 +22,7 @@ jobs:
     runs-on:
       labels: [self-hosted, sangsu]
     steps:
-      - run: chmod 777 ./start.sh
-      - run: RUNNER_TRACKING_ID="" && ./start.sh
+      - working-directory: /home/wnynya/wanyne.com-data
+        run: chmod 777 ./restart.sh
+      - working-directory: /home/wnynya/wanyne.com-data
+        run: RUNNER_TRACKING_ID="" && ./restart.sh
