@@ -48,6 +48,6 @@ async function resizeDir(src, size = 2100) {
   }
 }
 
-const targetPath = path.resolve(__dirname, process.argv[2]);
+const targetPath = path.resolve(__dirname, '../' + process.argv[2]);
 
 resizeDir(targetPath);

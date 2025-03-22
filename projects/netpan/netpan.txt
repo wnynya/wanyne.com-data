@@ -1,0 +1,6 @@
+# netpan 2022-11-19
+# 넷판
+# [웹]
+
+폰트를 찾아보다 <a href="https://quiple.dev/galmuri" rel="nofollow">갈무리</a> 라는 서체를 발견했다. 
+닌텐도 DS에서 볼 수 있었을 법 한 픽셀이 강조된 느낌의 비트맵 폰트였다.
