@@ -2,8 +2,10 @@
 # Air Cave
 # [설치]
 # (img;resized/B0000698-x2100.jpg)
-# (img;resized/B0000711-x2100.jpg)
-# (img;resized/B0000718-x2100.jpg)
+
+(img;resized/B0000698-x2100.jpg)
+(img;resized/B0000711-x2100.jpg)
+(img;resized/B0000718-x2100.jpg)
 
 2020년 1학기 기초입체 수업 과제이다.
 면재만 사용하여 입체물을 만드는 주제였다.

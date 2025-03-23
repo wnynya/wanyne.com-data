@@ -3,10 +3,11 @@
 # [오디오]
 # (img;images/resized/L1000405-x2100.jpg)
 
+(img;wide;images/resized/L1000405-x2100.jpg)
 Thorens TD 320<br />
 토렌스 TD 320
 
-(img;wide;images/resized/L1000403-x2100.jpg)
+(img;images/resized/L1000403-x2100.jpg)
 
 (img;images/resized/L1000428-crop-x2100.jpg)
 SME 3009 톤암

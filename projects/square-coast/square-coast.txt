@@ -1,0 +1,15 @@
+# square-coast 2020-12-08
+# 정사각형 연안
+# [사진]
+# (img;resized/9-x2100.jpg)
+
+(img;resized/1-x2100.jpg)
+(img;resized/2-x2100.jpg)
+(img;resized/3-x2100.jpg)
+(img;resized/4-x2100.jpg)
+(img;resized/5-x2100.jpg)
+(img;resized/6-x2100.jpg)
+(img;resized/7-x2100.jpg)
+(img;resized/8-x2100.jpg)
+(img;resized/9-x2100.jpg)
+(img;resized/10-x2100.jpg)

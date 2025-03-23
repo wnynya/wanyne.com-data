@@ -2,8 +2,10 @@
 # Straight Circle
 # [설치]
 # (img;resized/DSC01180-x2100.jpg)
-# (img;resized/DSC01210-x2100.jpg)
-# (img;resized/DSC01269-x2100.jpg)
+
+(img;resized/DSC01180-x2100.jpg)
+(img;resized/DSC01210-x2100.jpg)
+(img;resized/DSC01269-x2100.jpg)
 
 2020년 1학기 기초입체 수업 과제이다.
 선재만 사용하여 입체물을 만드는 주제였다.

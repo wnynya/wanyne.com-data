@@ -24,6 +24,7 @@ LP와, SP 소리골의 차이도 간편하게 처리하기 위해 톤암 끝의 
 # [오디오]
 # (img;images/resized/L1009866-x2100.jpg)
 
+(img;wide;images/resized/L1009866-x2100.jpg)
 Braun SK 5 Phonosuper<br />
 브라운 SK 5
 

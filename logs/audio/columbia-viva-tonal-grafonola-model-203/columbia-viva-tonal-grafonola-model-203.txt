@@ -3,6 +3,7 @@
 # [오디오]
 # (img;images/resized/L1000460-x2100.jpg)
 
+(img;wide;images/resized/L1000460-x2100.jpg)
 Columbia Viva-tonal Grafonola Model 203<br />
 콜롬비아 축음기 모델 203
 

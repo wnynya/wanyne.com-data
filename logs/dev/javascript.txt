@@ -1,3 +1,93 @@
+# nodejs-wol 2022-10-30 19:01:00
+# Node.js 와 Wake On LAN 으로 컴퓨터 원격 부팅하기
+# [개발]
+
+Node.js 에서 WOL 프로토콜을 사용해 컴퓨터를 원격 부팅하는 방법입니다. 
+WOL 은 Wake On LAN 의 약자로 랜선이 연결된 랜 카드를 통해 컴퓨터를 켜는 방법입니다. 
+컴퓨터에 WOL 이 활성화 (경우에 따라 마더보드 설정을 변경해야 할 수 있습니다) 
+되어 있고 MAC 주소를 알고 있으면 매직 패킷을 전송해 컴퓨터를 원격으로 켤 수 있습니다. 
+(연결 된 네트워크가 공유기 환경이라면 같은 공유기 네트워크에 있는 기기가 필요합니다)
+
+
+
+1. 간단한 방법
+
+Pingus 모듈을 설치합니다
+```
+npm i pingus
+```
+
+다음의 자바스크립트 코드를 실행하면 00-00-00-00-00-00 MAC 주소의 컴퓨터로 매직 패킷이 전송됩니다.
+```js
+import pingus from 'pingus';
+
+pingus
+  .wol('00-00-00-00-00-00')
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    throw error;
+  });
+```
+
+
+
+2. 조금 복잡한 방법
+
+WOL 을 사용하려면 매직 패킷을 보내야 합니다. 매직 패킷은 처음 6번의 0xff 와 16번 반복되는 대상 컴퓨터의 MAC 주소로 구성되어 있습니다. 매직 패킷을 UDP 9번 (혹은 7번) 포트로 브로드캐스트하면 라우터 내의 모든 컴퓨터로 패킷이 전송됩니다. 자신의 MAC 주소가 포함된 매직 패킷을 수신받은 랜 카드는 이를 인식하고 대상 컴퓨터를 켭니다.
+
+먼저 매직 패킷 버퍼를 만듭니다.
+```js
+const header = Buffer.from([0xff, 0xff, 0xff, 0xff, 0xff, 0xff]); // 처음의 0xff 6개
+
+let address = '00-00-00-00-00-00';
+address = address.replace(/[^a-f0-9]/g, ''); // MAC 주소 이외의 요소 제거
+
+let mac = Buffer.alloc(6);
+for (let i = 0; i < 6; i++) {
+  mac[i] = parseInt(address.substring(i * 2, i * 2 + 2), 16); // MAC 주소를 2자씩 끊어서 6 바이트에 할당
+}
+
+let magic = header; // 먼저 0xff 6개로 시작
+for (let i = 0; i < 16; i++) {
+  magic = Buffer.concat([magic, mac]); // 이후 MAC 주소 16회 반복
+}
+```
+
+만들어진 매직 패킷을 UDP 소켓 (Node.js dgram 사용)으로 브로드캐스트합니다.
+```js
+import dgram from 'dgram'; // Node.js UDP 소켓
+
+const socket = new dgram.createSocket('udp4');
+
+socket.on('listening', () => {
+  socket.setBroadcast(true);
+});
+
+// 9번 포트, 브로드캐스트 IP 사용
+socket.send(magic, 0, magic.length, 9, '255.255.255.255', (err, bytes) => {
+  if (err) {
+    throw err;
+  }
+
+  console.log('매직 패킷 전송됨', bytes + 'bytes');
+});
+```
+
+매직 패킷을 보낼 때 대상 컴퓨터는 꺼진 상태이므로 대상의 IP 가 존재하지 않습니다. 
+그러므로 대상 컴퓨터 고유의 MAC 주소를 담은 매직 패킷을 라우터 내 모든 기기에 브로드캐스트해 랜 카드가 이를 인식하고 컴퓨터를 킬 수 있도록 합니다.
+
+
+
+
+
+--------
+
+
+
+
+
 # nodejs-send-tcp-udp-icmp-ping 2022-10-28 23:41:14
 # Node.js TCP/UDP/ICMP 핑 보내기 (Pingus 모듈 사용)
 # [개발]
@@ -10,18 +100,16 @@ Node.js 에서 Pingus 모듈을 사용해 각종 프로토콜 (TCP / UDP / ICMP)
 
 
 먼저 Pingus 모듈을 설치합니다.
+
 ```
 npm i pingus
 ```
 
-설치 중 오류가 발생하면 다음의 커멘드로 필요 패키지를 설치해줍니다.
-
+설치 중 오류가 발생하면 다음의 커멘드로 필요 패키지를 설치해줍니다.<br>
 데비안, 우분투의 경우:
 ```
-apt-get install -y build-essential
+sudo apt-get install -y build-essential
 ```
-
-
 
 보통의 콘솔 창에서 ping <호스트> 로 사용할 수 있는 ICMP ECHO 핑을 보내봅니다.
 
@@ -111,7 +199,5 @@ localhost 에 22번 포트로 TCP 핑을 보내봅니다.
 
 
 
-
-
-참조한 글
-Github - wnynya/Pingus
+참조한 글<br />
+<a href="https://github.com/wnynya/Pingus">Github - wnynya/Pingus↗</a>

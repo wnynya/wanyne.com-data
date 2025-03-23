@@ -1,8 +1,10 @@
 # permaphic-v1.0 2024-02-01
 # Permaphic v1.0
 # [웹, 설치]
-# (img;greenbee_josungwan_1.jpg)
-# (img;greenbee_josungwan_2.jpg)
+# (img;IMG_1518.JPG)
+
+(img;wide;IMG_1518.JPG)
+(img;wide;IMG_1521.JPG)
 
 2024년 시각디자인과 소모임 연합전시(SISO 2024, 시소전) 에서 만든 작업이다. 
 오래 된 플로피 디스켓에서 발견한 알 수 없는 프로그램이라는 주제로 작업을 진행하였다. 
