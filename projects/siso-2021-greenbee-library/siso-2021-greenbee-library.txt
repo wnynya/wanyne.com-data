@@ -1,6 +1,6 @@
 # siso-2021-greenbee-library 2021-08-21
-# SISO 2021 Greenbee Library
-# [웹]
+# 2021년 시소전 그린비 라이브러리
+# [웹, 협업]
 # (img;스크린샷 2025-03-23 오후 9.29.18.png)
 
 (img;wide;스크린샷 2025-03-23 오후 9.29.18.png)
