@@ -1,9 +1,14 @@
---------
+[아이디]
+play-all-rpms-in-braun-sk-5 
+[제목]
+브라운 SK 5 카트리지 복원 / 모든 RPM의 음반 재생해보기
+[날짜]
+2023-04-10 09:13:00
 
-# play-all-rpms-in-braun-sk-5 2023-04-10 09:13:00
-# 브라운 SK 5 카트리지 복원 / 모든 RPM의 음반 재생해보기
-# [오디오]
+[태그]
+오디오
 
+[내용]
 브라운 SK 5 는 1950년대 음반이 SP 에서 LP 로 넘어가던 중, 여러 가지 음반 형태가 경쟁하던 중에 만들어졌다. 
 그래서 브라운 SK 5 턴테이블에서는 오른쪽 원반 형태의 레버를 돌려 16, 33, 45, 78 RPM, 
 네 종류의 RPM 으로 음반을 재생할 수 있다. 
@@ -19,13 +24,22 @@ LP와, SP 소리골의 차이도 간편하게 처리하기 위해 톤암 끝의 
 
 --------
 
-# braun-sk-5 2020-12-28 17:27:00
-# 브라운 SK 5
-# [오디오]
-# (img;images/resized/L1009866-x2100.jpg)
+[아이디]
+braun-sk-5
+[제목]
+브라운 SK 5
+[날짜]
+2020-12-28 17:27:00
 
-(img;wide;images/resized/L1009866-x2100.jpg)
-Braun SK 5 Phonosuper<br />
+[미리보기]
+(img;images/resized/L1009866-x2100.jpg)
+[태그]
+오디오
+
+[내용]
+(img;full;images/resized/L1009866-x2100.jpg)
+Braun SK 5 Phonosuper
+
 브라운 SK 5
 
 브라운 사의 Phonosuper SK 5 모델. 

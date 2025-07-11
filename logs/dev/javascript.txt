@@ -1,7 +1,14 @@
-# nodejs-wol 2022-10-30 19:01:00
-# Node.js 와 Wake On LAN 으로 컴퓨터 원격 부팅하기
-# [개발]
+[아이디]
+nodejs-wol 
+[제목]
+Node.js 와 Wake On LAN 으로 컴퓨터 원격 부팅하기
+[날짜]
+2022-10-30 19:01:00
 
+[태그]
+개발
+
+[내용]
 Node.js 에서 WOL 프로토콜을 사용해 컴퓨터를 원격 부팅하는 방법입니다. 
 WOL 은 Wake On LAN 의 약자로 랜선이 연결된 랜 카드를 통해 컴퓨터를 켜는 방법입니다. 
 컴퓨터에 WOL 이 활성화 (경우에 따라 마더보드 설정을 변경해야 할 수 있습니다) 
@@ -87,11 +94,17 @@ socket.send(magic, 0, magic.length, 9, '255.255.255.255', (err, bytes) => {
 
 
 
+[아이디]
+nodejs-send-tcp-udp-icmp-ping
+[제목]
+Node.js TCP/UDP/ICMP 핑 보내기 (Pingus 모듈 사용)
+[날짜]
+2022-10-28 23:41:14
 
-# nodejs-send-tcp-udp-icmp-ping 2022-10-28 23:41:14
-# Node.js TCP/UDP/ICMP 핑 보내기 (Pingus 모듈 사용)
-# [개발]
+[태그]
+개발
 
+[내용]
 Node.js 에서 Pingus 모듈을 사용해 각종 프로토콜 (TCP / UDP / ICMP) 로 핑을 보내는 방법입니다.
 
 다른 방법은 아래의 글을 참조하세요.<br />

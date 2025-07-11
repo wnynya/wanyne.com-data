@@ -1,9 +1,17 @@
-# columbia-viva-tonal-grafonola-model-203 2023-07-28 17:28:00
-# 콜롬비아 축음기 모델 203
-# [오디오]
-# (img;images/resized/L1000460-x2100.jpg)
+[아이디]
+columbia-viva-tonal-grafonola-model-203
+[제목]
+콜롬비아 축음기 모델 203
+[날짜]
+2023-07-28 17:28:00
 
-(img;wide;images/resized/L1000460-x2100.jpg)
+[미리보기]
+(img;images/resized/L1000460-x2100.jpg)
+[태그]
+오디오
+
+[내용]
+(img;full;images/resized/L1000460-x2100.jpg)
 Columbia Viva-tonal Grafonola Model 203<br />
 콜롬비아 축음기 모델 203
 

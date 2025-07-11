@@ -1,7 +1,7 @@
 name: Pull
 on:
   push:
-    branches: [none]
+    branches: [main]
 
 jobs:
   pull:

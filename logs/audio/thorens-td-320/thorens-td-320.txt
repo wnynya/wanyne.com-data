@@ -1,8 +1,16 @@
-# thorens-td-320 2023-03-29 16:46:00
-# 토렌스 TD 320
-# [오디오]
-# (img;images/resized/L1000405-x2100.jpg)
+[아이디]
+thorens-td-320
+[제목]
+토렌스 TD 320
+[날짜]
+2023-03-29 16:46:00
 
+[미리보기]
+(img;images/resized/L1000405-x2100.jpg)
+[태그]
+오디오
+
+[내용]
 (img;wide;images/resized/L1000405-x2100.jpg)
 Thorens TD 320<br />
 토렌스 TD 320
