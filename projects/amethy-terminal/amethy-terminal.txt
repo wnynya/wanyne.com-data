@@ -1,4 +1,15 @@
-# amethy-terminal 2019-11-08
-# 아메시 터미널 · Amethy Terminal
-# [웹, 도구]
+[아이디]
+amethy-terminal 
+[제목]
+아메시 터미널 · Amethy Terminal
+[기간]
+2019-11-08
+
+[미리보기]
+(img;a)
+
+[유형]
+웹사이트 프로그램
+
+[내용]
 

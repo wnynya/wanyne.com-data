@@ -1,8 +1,17 @@
-# air-cave 2020-05-26
-# Air Cave
-# [설치]
-# (img;resized/B0000698-x2100.jpg)
+[아이디]
+air-cave
+[제목]
+Air Cave
+[기간]
+2020-05-26
 
+[미리보기]
+(img;w3;resized/B0000698-x2100.jpg)
+
+[유형]
+설치
+
+[내용]
 (img;resized/B0000698-x2100.jpg)
 (img;resized/B0000711-x2100.jpg)
 (img;resized/B0000718-x2100.jpg)

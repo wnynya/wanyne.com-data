@@ -1,12 +1,12 @@
 [아이디]
 permaphic-v1.0/poster
 [제목]
-Permaphic v1.0
+Permaphic v1.0 포스터
 [기간]
 2025-01-02 - 2025-07-02
 
 [미리보기]
-(img;w4;IMG_1511.JPG;퍼마픽 포스터)
+(img;w6;IMG_1511.JPG;퍼마픽 포스터)
 
 [유형]
 포스터
@@ -30,12 +30,12 @@ permaphic-v1.0/installation-at-siso-2024
 [아이디]
 permaphic-v1.0/installation-at-siso-2024
 [제목]
-Permaphic v1.0
+Permaphic v1.0 설치
 [기간]
 2025-01-02 - 2025-07-02
 
 [미리보기]
-(img;w2;IMG_1518.JPG)
+(img;w4;IMG_1518.JPG)
 
 [유형]
 설치
@@ -43,11 +43,11 @@ Permaphic v1.0
 웹, 프린터, 소품
 
 [내용]
-(img;full;IMG_1518.JPG)
-(img;side;IMG_1518.JPG)
-(img;w2;IMG_1518.JPG)
-(img;w2;IMG_1518.JPG)
-(img;w2;IMG_1521.JPG)
+(img;IMG_1518.JPG)
+(img;IMG_1518.JPG)
+(img;IMG_1518.JPG)
+(img;IMG_1518.JPG)
+(img;IMG_1521.JPG)
 
 2024년 시각디자인과 소모임 연합전시(SISO 2024, 시소전) 에서 만든 작업이다. 
 오래 된 플로피 디스켓에서 발견한 알 수 없는 프로그램이라는 주제로 작업을 진행하였다. 
@@ -65,3 +65,4 @@ Permaphic v1.0
 [연관 작업]
 permaphic-v1.0/poster
 permaphic-v1.0/program
+
