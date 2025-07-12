@@ -1,7 +1,15 @@
-# the-big-red-button 2019-09-17
-# The Big Red Button
-# [웹]
-# (img;스크린샷 2025-03-23 오후 9.37.44.png)
+[아이디]
+the-big-red-button
+[제목]
+The Big Red Button
+[기간]
+2019-09-17
 
+[미리보기]
+(img;스크린샷 2025-03-23 오후 9.37.44.png)
+[유형]
+웹사이트
+
+[내용]
 (img;wide;스크린샷 2025-03-23 오후 9.37.44.png)
 (img;스크린샷 2025-03-23 오후 9.37.48.png)
