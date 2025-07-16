@@ -1,0 +1,60 @@
+[아이디]
+sound-of-shape/installation-simple-manual
+[제목]
+형태의 소리 간단 설명서
+[기간]
+2025-06-23 - 2025-06-27
+
+[미리보기]
+(img;w3;installation-simple-manual/resized/설명-x2100.jpg)
+
+[내용]
+(img;w10;installation-simple-manual/설명.jpg)
+
+형태의 소리 작업을 홍익대학교 홍문관 7층 복도에서 열린 「기술자¹ X 기술자²」 전시에서 일주일간 전시하였다.
+관람객들에게 직접 만져 보고 사용해 볼 수 있도록 전시하였기 때문에, 사용 방법 안내를 위해 간단 설명서를 제작하였다.
+
+--------
+
+
+
+[아이디]
+sound-of-shape/installation
+[제목]
+형태의 소리 설치
+[기간]
+2025-06-23 - 2025-06-27
+
+[미리보기]
+(img;w10;installation/resized/IMG_2574-x2100.jpg)
+[유형]
+설치
+
+[내용]
+(img;w16;installation/IMG_2574.jpg)
+
+형태의 소리 작업을 홍익대학교 홍문관 7층 복도에서 열린 「기술자¹ X 기술자²」 전시에서 일주일간 전시하였다.
+관람객들이 직접 만져 보고 사용해 볼 수 있도록 전시되었다.
+
+[추가 내용]
+(img;w12;installation/IMG_2573 crop.jpg)
+
+
+
+--------
+
+
+
+[아이디]
+sound-of-shape
+[제목]
+형태의 소리
+[기간]
+2025-03-02 - 2025-06-20
+
+[미리보기]
+(img;a)
+[유형]
+장치
+
+[내용]

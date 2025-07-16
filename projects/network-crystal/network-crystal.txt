@@ -1,7 +1,19 @@
-# network-crystal 2021-07-12
-# 네트워크 크리스털 · Network Crystal
-# [웹, 도구]
+[아이디]
+network-crystal-website-at-2021
+[제목]
+네트워크 크리스털 · Network Crystal
+[기간]
+2021-07-12
 
+[미리보기]
+(img;w4;website-at-2021/wany.io_network-crystal_138.2.8.16_2.png)
+[유형]
+웹사이트
+
+[내용]
+(img;w7;website-at-2021/wany.io_network-crystal_138.2.8.16.png)
+(img;w7;website-at-2021/wany.io_network-crystal_138.2.8.16_2.png)
+(img;w7;website-at-2021/wany.io_network-crystal_138.2.8.16_3.png)
 웹 작업을 하며 네트워크에도 관심이 생겼기에 편하게 디버그하는 도구를 만들고 싶었다.
 그래서 영화에 나오는 해킹툴같은 생김새의 네트워크 디버깅 도구를 만들어 보았다.
 영화에서 나오는 해킹 장면들은 터무니없는 것들이 많다. 

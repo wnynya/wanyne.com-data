@@ -3,10 +3,10 @@ permaphic-v1.0/poster
 [제목]
 Permaphic v1.0 포스터
 [기간]
-2025-01-02 - 2025-07-02
+2024-03-10
 
 [미리보기]
-(img;w6;IMG_1511.JPG;퍼마픽 포스터)
+(img;w6;resized/Permaphic A2_페이지_1-x2100.jpg)
 
 [유형]
 포스터
@@ -15,9 +15,9 @@ Permaphic v1.0 포스터
 420 x 594 mm
 
 [내용]
-(img;w3;IMG_1511.JPG)
-(img;w3;IMG_1518.JPG)
-(img;w3;IMG_1521.JPG)
+(img;w8;resized/Permaphic A2_페이지_1-x2100.jpg)
+(img;w8;resized/Permaphic A2_페이지_2-x2100.jpg)
+(img;w8;resized/Permaphic A2_페이지_3-x2100.jpg)
 
 [연관 작업]
 permaphic-v1.0/program
@@ -32,22 +32,17 @@ permaphic-v1.0/installation-at-siso-2024
 [제목]
 Permaphic v1.0 설치
 [기간]
-2025-01-02 - 2025-07-02
+2024-03-10
 
 [미리보기]
-(img;w4;IMG_1518.JPG)
+(img;w5;resized/IMG_1518-x2100.JPG)
 
 [유형]
 설치
-[매체]
-웹, 프린터, 소품
 
 [내용]
-(img;IMG_1518.JPG)
-(img;IMG_1518.JPG)
-(img;IMG_1518.JPG)
-(img;IMG_1518.JPG)
-(img;IMG_1521.JPG)
+(img;w10;resized/IMG_1518-x2100.JPG)
+(img;w10;resized/IMG_1521-x2100.JPG)
 
 2024년 시각디자인과 소모임 연합전시(SISO 2024, 시소전) 에서 만든 작업이다. 
 오래 된 플로피 디스켓에서 발견한 알 수 없는 프로그램이라는 주제로 작업을 진행하였다. 
@@ -61,6 +56,9 @@ Permaphic v1.0 설치
 한다. 이 암호화된 문자들로 이미지 풀과 이미지끼리 혼합할 때 사용할 효과 풀에서 몇 가지를 선택한 후 전
 부 합쳐 최종적인 그래픽을 만들어낸다. 실제 작동하는 프로그램은 웹 페이지로 만들었기 때문에 만들어진
 그래픽을 서버로 전송 후 pdf파일 형태로 바꾸어 바로 인쇄할 수 있게 만들었다.
+
+[추가 내용]
+(img;w10;resized/IMG_1511-x2100.jpg)
 
 [연관 작업]
 permaphic-v1.0/poster

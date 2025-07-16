@@ -6,7 +6,7 @@ amethy-terminal
 2019-11-08
 
 [미리보기]
-(img;a)
+(img;w6;a)
 
 [유형]
 웹사이트, 프로그램

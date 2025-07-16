@@ -21,10 +21,11 @@ async function resizeDir(src, size = 2100) {
     if (stat.isDirectory()) {
       continue;
     }
-    const ext = path.parse(name).ext;
+    const ext = path.parse(name).ext.toLowerCase();
     if (!EXT.includes(ext)) {
       continue;
     }
+    console.log('resize', file);
     const buffer = fs.readFileSync(file);
     let resultBuffer;
     if (['.jpeg', '.jpg'].includes(ext)) {

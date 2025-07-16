@@ -1,0 +1,36 @@
+[아이디]
+accidental-collage
+[제목]
+우연 꼴라주하기
+[기간]
+2025-03-30 - 2025-06-17
+
+[미리보기]
+(img;w5;ren1.jpeg)
+
+[유형]
+웹사이트
+
+[내용]
+(img;w4;demo1.png)
+(img;w4;demo2.png)
+(img;w4;demo3.png)
+(img;w4;ren1.jpeg)
+
+2025년 커뮤니케이션디자인(1) 수업 과제물.
+
+이 수업에서는 마지막 작업을 제외한, 넣은 패턴에 한정해서는 마지막 작업도 포함하여, 모든 작업물에서 콜라주가 사용되었다. 
+처음에 종이 조각들을 자르고 흩뿌려서 콜라주 작업을 할 때의 느낌을 다른 매체로 옮겨 보았다. 
+웹 기술을 활용하여 모바일 기기에서 사용할 수 있는 여러 가지 센서와 카메라를 활용해 그래픽 조각들을 우연적인 효과로 배치하고 색을 합성할 수 있도록 만들었다.
+
+[추가 내용]
+(img;w4;ren2.jpeg)
+(img;w4;ren3.jpeg)
+(img;w4;ren4.jpeg)
+(img;w4;ren5.jpeg)
+(img;w4;ren6.jpeg)
+(img;w4;ren7.jpeg)
+(img;w4;ren8.jpeg)
+(img;w4;ren10.jpeg)
+(img;w4;ren11.jpeg)
+(img;w4;ren12.jpeg)
