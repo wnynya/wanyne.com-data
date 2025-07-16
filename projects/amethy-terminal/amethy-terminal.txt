@@ -6,10 +6,15 @@ amethy-terminal
 2019-11-08
 
 [미리보기]
-(img;w6;a)
+(img;w6;at1.png)
 
 [유형]
 웹사이트, 프로그램
 
 [내용]
-
+(img;w6;at1.png)
+(img;w6;at2.png)
+(img;w6;at3.png)
+(img;w6;at4.png)
+(img;w6;at5.png)
+(img;w6;at6.png)

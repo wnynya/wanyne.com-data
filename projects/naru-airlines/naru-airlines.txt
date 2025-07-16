@@ -6,7 +6,6 @@ naru-airlines-logo
 2020-05-26
 
 [미리보기]
-(img;w4;resized/B0000698-x2100.jpg)
 
 [유형]
 로고타입
